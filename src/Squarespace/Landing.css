@@ -1,0 +1,67 @@
+.container{
+    position: absolute;
+    width: 100vw;
+    padding-top: 0%;
+    /* background-color: red; */
+}
+
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    z-index: -1;
+    padding: 10vh 10vw;
+    color: white;
+    /* background-color: red; */
+    background-image: url('background-image.jpeg');
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    
+   
+   
+}
+
+
+.para{
+    padding-top: 1%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    height: 150px;
+    padding: 1%;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+}
+
+
+input{
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: white;
+}
